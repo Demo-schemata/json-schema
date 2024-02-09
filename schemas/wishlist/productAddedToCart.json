@@ -8,7 +8,7 @@
   "schema_type" : "UNKNOWN",
   "domain" : "Core",
   "status" : "Active",
-  "quality_rule_base" : "(1 = 1)",
+  "quality_rule_base" : "(price like '%10000%' and (1 = 1))",
   "properties" : {
     "wishlist_id" : {
       "type" : "string",
