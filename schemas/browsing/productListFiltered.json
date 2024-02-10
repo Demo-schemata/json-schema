@@ -53,6 +53,7 @@
       "domain" : "Core",
       "status" : "Active",
       "subscribers" : [ "Customer Support Team" ],
+      "quality_rule_base" : "(value = '10000')",
       "properties" : {
         "type" : {
           "type" : "string",
