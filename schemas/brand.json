@@ -1,21 +1,43 @@
 {
-  "$id": "/schemas/brand",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "title": "brand",
-  "description": "The table contains all the Brand information and related fields.",
-  "type": "object",
-  "properties": {
-    "name": {
-      "type": "string",
-      "description": "The name of the brand"
+  "$schema" : "http://json-schema.org/draft-07/schema#",
+  "$id" : "/schemas/brand",
+  "title" : "brand",
+  "type" : "object",
+  "description" : "The table contains all the Brand information and related fields.",
+  "owner" : "Data Team",
+  "schema_type" : "UNKNOWN",
+  "domain" : "Data",
+  "status" : "Active",
+  "subscribers" : [ "Marketing Team" ],
+  "quality_rule_base" : "(1 = 1)",
+  "properties" : {
+    "name" : {
+      "type" : "string",
+      "description" : "The name of the brand",
+      "is_pii" : "false",
+      "is_classified" : "false",
+      "deprecated" : "false"
     },
-    "id": {
-      "type": "integer",
-      "description": "The primary identification of the brand"
+    "id" : {
+      "type" : "integer",
+      "description" : "The primary identification of the brand",
+      "is_pii" : "false",
+      "is_classified" : "false",
+      "deprecated" : "false"
     },
-    "type": {
-      "type": "string",
-      "description": "Brand Type"
+    "type" : {
+      "type" : "string",
+      "description" : "Brand Type",
+      "is_pii" : "false",
+      "is_classified" : "false",
+      "deprecated" : "false"
+    },
+    "product_id" : {
+      "type" : "string",
+      "description" : "product id",
+      "is_pii" : "false",
+      "is_classified" : "false",
+      "deprecated" : "false"
     }
   }
 }
