@@ -8,7 +8,7 @@
   "schema_type" : "UNKNOWN",
   "domain" : "Order",
   "status" : "Active",
-  "quality_rule_base" : "(1 = 1)",
+  "quality_rule_base" : "(product_id != 'null')",
   "properties" : {
     "checkout_id" : {
       "type" : "string",
